@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:ital,wght@0,400;0,600;1,100&display=swap');
+
+:root {
+      --main-font:'Poppins', sans-serif;
+      --secondary-font: 'Petit Formal Script', cursive , sans-serif;
+
+      --color-font: #2E457A;
+      --color-black: #262626;
+      --color-bg-black: #222222;
+      --color-white: #FFFFFF;
+      --color-gray: #CCCCCC;
+
+
+      --color-bluel: #3954A2;
+      --color-blues: #010843;
+      --color-greens: #021B2C;
+      --color-greenm: #075263;
+      --color-greenl: #0B768A;
+      --color-greenlemon:#74AC72;
+      --color-pinkl: #BE5AA6;
+      --color-pinks:#791A56;
+      --color-purple:#893994;
+      --color-white: #fff;
+      --color-black: #000;
+}
+
+*,
+*::before,
+*::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+}
+
+html {
+      font-size: 62.5%;
+}
+
+body {
+      box-sizing: border-box;
+      font-size: 1.6rem;
+      font-family: var(--main-font);
+      color: var(--color-black);
+      font-weight: 600;
+      line-height: 1.7;
+}
+
+img {
+      display: block;
+}
+
+a {
+      display: inline-block;
+      text-decoration: none;
+}
+
+
+ul {
+      list-style: none;
+}
+
+.section-separation {
+      margin-top: 3rem;
+}
+
+.heading__primary {
+      font-family: var(--secondary-font);
+      font-size: 6rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--color-purple);
+      margin-bottom: 3rem;
+      /* added */
+      width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading__secondary {
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 5rem;
+      color: var(--color-pinks);
+}
+
+.heading__secondary--black {
+      color: var(--color-black);
+}
+
+.heading__tertiary {
+      color: var(--color-pinks);
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+}
+
+.containerG {
+      margin: 3rem auto;
+      width: 120rem;
+      max-width: 95%;
+      padding: 5rem;
+}
+
+.btn {
+      background-color: var(--color-purple);
+      padding: 1rem 2rem;
+      color: var(--color-white);
+      border: none;
+      border-radius: 100px;
+      font-family: inherit;
+      font-size: 1.8rem;
+      cursor: pointer;
+      transition: all .4s ease-out;
+}
+
+.btn:hover {
+      background-color:var(--color-greenlemon);
+}
+
+.none {
+      display: none;
+}
+
+.show {
+      display: show;
+}
+

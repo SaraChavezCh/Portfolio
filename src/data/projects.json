@@ -1,0 +1,53 @@
+[
+      {
+          
+          "id": "1",
+          "logo": "../../assets/img/weatherapp.jpg",
+          "url": "https://weatherappbysarach.netlify.app/",
+          "name": "Weather App",
+          "description":"This project used a public API, it gives you the weather condition of the place where you are when you open it. it has a changing background and image that depend on the weather condition.",
+          "Technologies":"React - APIs - HMTL - CSS - JAVA SCRIPT",
+          "company": "Personal Project"
+      },
+      {
+          
+          "id": "2",
+          "logo": "../../assets/img/rickandmorty.jpg",
+          "url": "https://rickandmorthybysarachavez.netlify.app",
+          "name": "Rick and Morty App",
+          "description":"Una aplicación donde el usuario podrá ver las características de sus personajes favoritos de la seria de Rick and Morty filtrados por dimensión.",
+          "Technologies":"React- Axios - HMTL - CSS - JAVA SCRIPT",
+          "company": "Personal Project"
+      },
+      {
+          
+          "id": "3",
+          "logo": "./../assets/img/pokemonapp.jpg",
+          "url": "https://pokemonsbysarachavez.netlify.app/",
+          "name": "Pokemon App",
+          "description":"Aplicación que permite al usuario la búsqueda de cualquier Pokémon ya sea por tipo o nombre, además ofrece una vista a detalle del Pokémon seleccionado.",
+          "Technologies":"React- Axios - Redux - RouterDom - React Hook Form- Bootstrap - HMTL - CSS - JAVA SCRIPT",
+          "company": "Personal Project"
+      },
+      {
+          
+          "id": "4",
+          "logo": "../../assets/img/ecommerce.jpg",
+          "url": "https://ecommerceteamcrazy.netlify.app/#/",
+          "name": "E-commerce App",
+          "description":"Una simulación de una infraestructura de e-commerce",
+          "Technologies":"React- Axios - Redux - RouterDom - React Hook Form- Bootstrap - HMTL - CSS - JAVA SCRIPT",
+          "company": "Team Project"
+      },
+      {
+          
+          "id": "5",
+          "logo": "../../assets/img/voztotal.jpg",
+          "url": "",
+          "name": "Voz Toltal Site",
+          "description":"Página web desarrolla para una empresa con el objetivo de dar a conocer sus servicios al cliente y expander sus horizontes de trabajo",
+          "Technologies":"React - HMTL - CSS - React-Bootstrap- Bootstrap - JAVA SCRIPT",
+          "company": "Personal Project"
+      }
+      
+  ]

@@ -1,0 +1,46 @@
+
+.tech__container_bg{
+  padding: 5rem 0;
+  background: #000000de;
+  margin-top: 7rem;
+}
+
+.tech__card{
+  padding: 3rem;
+  box-shadow: 0 5px 5px gray;
+}
+.tech__card:hover{
+  box-shadow: 0 5px 5px var(--color-purple);
+}
+.tech__cardContainer{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
+    margin: 0 auto;
+  }
+  .cardContainer__name {
+    width: fit-content;
+    margin: 0 auto;
+    color: var(--color-font);
+    font-size: 20px !important;
+    font-weight: 600 !important;
+
+  }
+  .cardContainer__description{
+    text-align: justify;
+  }
+  .cardContainer__text {
+    color: var(--color-red);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cardContainer__text-center{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 

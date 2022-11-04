@@ -1,0 +1,22 @@
+[
+	{
+	 "id": 1,
+	 "schoolName": "Academlo",
+	   "degre": "Front-End Developer"
+	},
+	{
+	 "id": 2,
+	 "schoolName": "Universidad del Valla de México",
+	   "degre": "Master degree in Education"
+	},
+	{
+	 "id": 3,
+	 "schoolName": "Vallarta International Academy",
+	   "degre": "Englis as a second languague"
+	},
+	{
+		"id": 4,
+		"schoolName": "Universidad de Guadalajara",
+		"degre": "Civil Engineering"
+	}
+]
