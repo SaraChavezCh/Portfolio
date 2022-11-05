@@ -1,6 +1,6 @@
 import {SocialMediaList } from "../components";
-import hero from "../../../assets/img/perfil.png";
-import logo from "../../../assets/img/logosn.png";
+import hero from "../../assets/img/perfil.png";
+import logo from "../../assets/img/logosn.png";
 import "../../css/pages/home.css";
 
 export const Home = () => {
@@ -35,7 +35,7 @@ export const Home = () => {
 
             <div className="description__text">
               <p>
-                I consider myself organized, responsible and committed to what I propose.  I like to share my knowledge with others and learn from them, I´m always looking to increase my job and personal competencies.
+                I consider myself organized, responsible and committed to what I propose.  I like to share my knowledge with others and learn from them, I'm always looking to increase my job and personal competencies.
               </p>
             </div>
           </div>

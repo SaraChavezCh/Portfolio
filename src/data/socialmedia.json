@@ -3,13 +3,13 @@
           "id": "1",
           "title": "Linked in",
           "description": "Conoce un poco más sobre mi.",
-          "icon": "../../assets/img/linkedin.png"
+          "icon": "../assets/img/linkedin.png"
       },
       {
           "id": "2",
           "title": "Git Hub",
           "description": "Aquí podrás encontrar todos los repositorios que he realizado individual y en conjunto. ",
-          "icon": "../../assets/img/github.png"
+          "icon": "../assets/img/github.png"
       }
   ]
   

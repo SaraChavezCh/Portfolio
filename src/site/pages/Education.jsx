@@ -1,8 +1,8 @@
 import "../../css/pages/education.css";
-import academlo from "../../../assets/img/academlo.png";
-import udg from "../../../assets/img/udg.png";
-import uvm from "../../../assets/img/uvm.jpg";
-import via from "../../../assets/img/VIA.jpg";
+import academlo from "../../assets/img/academlo.png";
+import udg from "../../assets/img/udg.png";
+import uvm from "../../assets/img/uvm.jpg";
+import via from "../../assets/img/VIA.jpg";
 
 export const Education = () => {
   return (

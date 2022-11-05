@@ -6,6 +6,7 @@ import technologies from '../../data/technologies.json'
 export const Technologies = () => {
   return (
     <div className="tech__container_bg">
+      
       <h1 className="heading__primary">Technologies</h1>
       <section className="tech__cardContainer">
         {technologies.map((data) => (
@@ -13,8 +14,9 @@ export const Technologies = () => {
             <Card.Img
               style={{ width: "100%", margin: "0 auto"}}
               variant="top"
-              src="`${data.logo}`"
+              src={data.logo}
             />
+          
             <Card.Body>
               <Card.Title className="cardContainer__name">
                 {data.name}

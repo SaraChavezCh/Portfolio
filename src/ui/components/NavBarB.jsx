@@ -2,7 +2,7 @@ import React from "react";
 import {Nav, Navbar,Container} from "react-bootstrap/";
 import { Link } from "react-router-dom";
 import "../../css/NavBarB.css";
-import logo from '../../../assets/img/logosn.png'
+import logo from '../../assets/img/logosn.png'
 
 export const NavBarB = () => {
     return (
