@@ -13,7 +13,7 @@ export const Technologies = () => {
             <Card.Img
               style={{ width: "100%", margin: "0 auto"}}
               variant="top"
-              src={data.logo}
+              src="`${data.logo}`"
             />
             <Card.Body>
               <Card.Title className="cardContainer__name">
