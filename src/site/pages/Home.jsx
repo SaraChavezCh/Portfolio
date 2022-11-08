@@ -2,6 +2,7 @@ import {SocialMediaList } from "../components";
 import hero from "../../assets/img/perfil.png";
 import logo from "../../assets/img/logosn.png";
 import "../../css/pages/home.css";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -14,7 +15,11 @@ export const Home = () => {
               <p className="heading__secondary">Front-End Developer Jr.</p>
             </div>
 
-            <button className="btn btn__center">Contact</button>
+           
+              <Link onClick={() => window.scrollTo(0, 0)} to="/contacto">
+              <button href={"/contacto"} className="btn btn__center"> Contact</button>
+              </Link>
+             
           </div>
 
           <div className="hero__image">
