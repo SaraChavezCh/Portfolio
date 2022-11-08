@@ -43,7 +43,7 @@
           
           "id": "5",
           "logo": "../assets/img/voztotal.jpg",
-          "url": "",
+          "url": "https://voztotal.mx/",
           "name": "Voz Toltal Site",
           "description":"Página web desarrolla para una empresa con el objetivo de dar a conocer sus servicios al cliente y expander sus horizontes de trabajo",
           "Technologies":"React - HMTL - CSS - React-Bootstrap- Bootstrap - JAVA SCRIPT",

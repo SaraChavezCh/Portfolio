@@ -1,5 +1,6 @@
-import { Navigate, Route, Routes } from "react-router-dom"
-import { Contact, Education, Home, Projects, Technologies } from '../site/pages/'
+import React from 'React';
+import { Navigate, Route, Routes } from "react-router-dom";
+import { Contact, Education, Home, Projects, Technologies } from '../site/pages/';
 
 export const AppRouter = () => {
       return (

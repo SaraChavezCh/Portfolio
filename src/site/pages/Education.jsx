@@ -1,3 +1,4 @@
+import React from 'React';
 import "../../css/pages/education.css";
 import academlo from "../../assets/img/academlo.png";
 import udg from "../../assets/img/udg.png";

@@ -1,3 +1,4 @@
+import React from "React";
 import socialmedia from "../../data/socialmedia.json";
 
 export const SocialMediaList = () => {
@@ -10,12 +11,9 @@ export const SocialMediaList = () => {
               <img className="social__icon " src={item.icon} alt="logo" />
             </div>
             <p>{item.description}</p>
-            <h3
-              onClick={() => setShowService(true)}
-              className="heading__tertiary"
-            >
-              {item.title}
-            </h3>
+            <a href={item.url}>
+            <h3 className="heading__tertiary">{item.title}</h3>
+              </a>
           </header>
         </li>
       ))}
