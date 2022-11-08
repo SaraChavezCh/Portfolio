@@ -7,7 +7,7 @@ export const SocialMediaList = () => {
         <li className="social__item" key={item.id}>
           <header className="social__header">
             <div className="social__iconBox">
-              <img className="social__icon " src={item.icon} alt="" />
+              <img className="social__icon " src={item.icon} alt="logo" />
             </div>
             <p>{item.description}</p>
             <h3

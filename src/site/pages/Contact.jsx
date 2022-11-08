@@ -1,8 +1,25 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
 import "../../css/pages/contact.css";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5d3an4u', 'template_o9i20ra', e.target, 'GekHIjK3GW9rBETQE')
+      .then((result) => {
+          console.log(result.text);
+          alert('Mensaje enviado con éxito')
+      }, (error) => {
+          console.log(error.text);
+          alert(error.message)
+      });
+      e.target.reset();
+  };
   return (
     <div className="contact section-separation-contact">
       <p className="heading__primary heading__primary-center">
@@ -12,30 +29,32 @@ export const Contact = () => {
       <div className="contact__main">
         <section className="contact__mainSection">
           <h1 className="heading__secondary">Send me an email</h1>
-          <Form>
+
+
+          <Form href={form} id="form" onSubmit={sendEmail}>
             <Form.Group className="mb-3">
-              <Form.Label>Full name</Form.Label>
-              <Form.Control type="text" />
+              <Form.Label htmlFor="name">Full name</Form.Label>
+              <Form.Control id="text" name="name" type="text" />
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" />
+              <Form.Label htmlFor="email">Email</Form.Label>
+              <Form.Control id="email" name="email" type="email" />
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label>Phone</Form.Label>
-              <Form.Control type="number" />
+              <Form.Label htmlFor="number">Phone</Form.Label>
+              <Form.Control id="number" name="number" type="number" />
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label>
+              <Form.Label htmfor="text">
                 Email - text
               </Form.Label>
-              <Form.Control type="text" />
+              <Form.Control id="text" name="text" type="text" />
             </Form.Group>
 
-            <Button className="ms-auto" variant="danger" type="submit">
+            <Button  value="Send Email" id="button"  type='submit' className="ms-auto" variant="danger" >
               Enviar
             </Button>
           </Form>
