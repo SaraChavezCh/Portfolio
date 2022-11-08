@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import "../../css/pages/education.css";
 import academlo from "../../assets/img/academlo.png";
 import udg from "../../assets/img/udg.png";

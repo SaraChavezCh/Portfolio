@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import {SocialMediaList } from "../components";
 import hero from "../../assets/img/perfil.png";
 import logo from "../../assets/img/logosn.png";

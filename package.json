@@ -21,5 +21,17 @@
     "@types/react-dom": "^18.0.7",
     "@vitejs/plugin-react": "^2.2.0",
     "vite": "^3.2.0"
-  }
+  },
+  "main": "main.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraChavezCh/Portfolio.git"
+  },
+  "author": "Sara Chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraChavezCh/Portfolio/issues"
+  },
+  "homepage": "https://github.com/SaraChavezCh/Portfolio#readme",
+  "description": ""
 }

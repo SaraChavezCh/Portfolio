@@ -1,4 +1,4 @@
-import React from "React";
+import React from "react";
 import socialmedia from "../../data/socialmedia.json";
 
 export const SocialMediaList = () => {

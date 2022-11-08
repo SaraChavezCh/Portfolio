@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import projects from "../../data/projects.json";
 import Card from "react-bootstrap/Card";
 import "../../css/pages/projects.css";

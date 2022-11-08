@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import { HashRouter } from "react-router-dom";
 import { AppRouter } from "./router/AppRouter";
 import { Footer, NavBarB } from "./ui/components";

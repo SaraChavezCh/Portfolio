@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Contact, Education, Home, Projects, Technologies } from '../site/pages/';
 
