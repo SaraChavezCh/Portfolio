@@ -12,14 +12,11 @@ export const SocialMediaList = () => {
             </div>
             <p>{item.description}</p>
             <a href={item.url}>
-            <h3 className="heading__tertiary">{item.title}</h3>
-          
-              </a>
+              <h3 className="heading__tertiary">{item.title}</h3>
+            </a>
           </header>
         </li>
       ))}
-      
     </ul>
-    
   );
 };

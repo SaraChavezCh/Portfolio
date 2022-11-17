@@ -1,13 +1,25 @@
+.Nav{
 
+    background-color: var(--color-ui);
+}
  .nav-img{
     margin: .5rem 3rem;
-    width: 50px; 
+    width: 70px; 
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
 }
-
-.ms-auto a:hover{
-color: var(--color-pinkl);
+.nav-link{
+    color: white !important;
 }
-.ms-auto a:active{
+.ms-auto{
+    color: white;
+}
+.nav-link:hover{
+color: var(--color-pinkl) !important;
+}
+.nav-link:active{
 color: var(--color-greenlemon) !important;
 
 }
@@ -15,6 +27,11 @@ color: var(--color-greenlemon) !important;
     position: absolute;
     right: 4rem;
     top: 2rem;
+    background-color: rgba(255, 255, 255, 0.322);
     
+}
+
+.menu{
+    background-color: aliceblue;
 }
  
