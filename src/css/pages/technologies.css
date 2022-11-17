@@ -3,6 +3,9 @@
   padding: 5rem 0;
   background: #000000de;
   margin-top: 7rem;
+  background-image: url('../../assets/img/triangulos.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tech__card{

@@ -39,9 +39,10 @@
   top:-2rem
 }
 .projects__container_bg{
-  padding: 5rem 0;
+  padding: 8rem 0;
   background: var(--color-greens);
   margin-top: 7rem;
+  height: 1100px;
 }
 .proj__cardContainer{
     width: 90%;
@@ -114,4 +115,54 @@
     margin: 0 auto;
     text-align: center;
   }
- 
+ /* ================================= */
+    /* animation */
+    /* ==================================== */
+
+    .over{
+      position: absolute;
+      height:100%;
+      width: 100%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      margin: 2rem ;
+    }
+    .animation{
+      position: relative;
+      display: flex;
+      /* flex-direction: column; */
+      column-gap: 3rem;
+      z-index: -10;
+    }
+    .animation span{
+      position: relative;
+      width: 2px;
+      height: 2px;
+      background-color: var(--color-white);
+      margin:0 4rem;
+      border-radius: 50%;
+      box-shadow: 
+      0 0 0 1px var(--color-white),
+      0 0 2px var(--color-white), 
+      0 0 3px var(--color-white);
+      animation: animate 20s linear infinite;
+    }
+    .animation span:nth-child(even){
+      background-color: var(--color-purple);
+      box-shadow:
+      0 0 0 1px var(--color-purple), 
+      0 0 2px var(--color-purple), 
+      0 0 3px var(--color-purple);
+    }
+    @keyframes animate{
+      0%
+      {
+        transform: translateY(100vh) ;
+      }
+      100%
+      {
+        transform: translateY(-10vh) ;
+      }
+    }

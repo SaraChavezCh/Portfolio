@@ -29,7 +29,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="description section-separation">
+      <section className="description section-separation skewed">
         <div className="containerG">
           <h2 className="heading__secondary heading__secondary--black">
             Quien soy:

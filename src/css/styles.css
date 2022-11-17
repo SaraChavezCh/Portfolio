@@ -22,6 +22,7 @@
       --color-purple:#893994;
       --color-white: #fff;
       --color-black: #000;
+
 }
 
 *,
@@ -87,6 +88,7 @@ ul {
 
 .heading__secondary--black {
       color: var(--color-black);
+      transform: skewY(-4deg);
 }
 
 .heading__tertiary {

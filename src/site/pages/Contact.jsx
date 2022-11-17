@@ -20,8 +20,55 @@ export const Contact = () => {
       });
       e.target.reset();
   };
+
+  
   return (
-    <div className="contact section-separation-contact">
+    <div className="contact section-separation-contact animation">
+      
+      <span style={{animationDuration:'1.1s'}}></span>
+      <span style={{animationDuration:'1.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.0s'}}></span>
+      <span style={{animationDuration:'1.4s'}}></span>
+      <span style={{animationDuration:'2.3s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.6s'}}></span>
+      <span style={{animationDuration:'1.9s'}}></span>
+      <span style={{animationDuration:'2.0s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'2.0s'}}></span>
+      <span style={{animationDuration:'2.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'2.1s'}}></span>
+      <span style={{animationDuration:'1.5s'}}></span>
+      <span style={{animationDuration:'1.3s'}}></span>
+      <span style={{animationDuration:'2.6s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.5s'}}></span>
+      <span style={{animationDuration:'2.0s'}}></span>
+      <span style={{animationDuration:'1.1s'}}></span>
+      <span style={{animationDuration:'1.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.0s'}}></span>
+      <span style={{animationDuration:'1.4s'}}></span>
+      <span style={{animationDuration:'2.3s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.6s'}}></span>
+      <span style={{animationDuration:'1.1s'}}></span>
+      <span style={{animationDuration:'1.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.0s'}}></span>
+      <span style={{animationDuration:'1.4s'}}></span>
+      <span style={{animationDuration:'2.3s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.6s'}}></span>
+     
+     
+    
+      
+      <div className="over">
       <p className="heading__primary heading__primary-center">
         Contact
       </p>
@@ -59,6 +106,7 @@ export const Contact = () => {
             </Button>
           </Form>
         </section>
+      </div>
       </div>
     </div>
   );

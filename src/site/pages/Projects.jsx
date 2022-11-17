@@ -5,9 +5,49 @@ import "../../css/pages/projects.css";
 
 export const Projects = () => {
   return (
-    <div className="projects__container_bg">
+    <div className="projects__container_bg animation">
+    
+         <span style={{animationDuration:'1.1s'}}></span>
+      <span style={{animationDuration:'1.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.0s'}}></span>
+      <span style={{animationDuration:'1.4s'}}></span>
+      <span style={{animationDuration:'2.3s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.6s'}}></span>
+      <span style={{animationDuration:'1.9s'}}></span>
+      <span style={{animationDuration:'2.0s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'2.0s'}}></span>
+      <span style={{animationDuration:'2.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'2.1s'}}></span>
+      <span style={{animationDuration:'1.5s'}}></span>
+      <span style={{animationDuration:'1.3s'}}></span>
+      <span style={{animationDuration:'2.6s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.5s'}}></span>
+      <span style={{animationDuration:'2.0s'}}></span>
+      <span style={{animationDuration:'1.1s'}}></span>
+      <span style={{animationDuration:'1.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.0s'}}></span>
+      <span style={{animationDuration:'1.4s'}}></span>
+      <span style={{animationDuration:'2.3s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.6s'}}></span>
+      <span style={{animationDuration:'1.1s'}}></span>
+      <span style={{animationDuration:'1.2s'}}></span>
+      <span style={{animationDuration:'2.5s'}}></span>
+      <span style={{animationDuration:'1.0s'}}></span>
+      <span style={{animationDuration:'1.4s'}}></span>
+      <span style={{animationDuration:'2.3s'}}></span>
+      <span style={{animationDuration:'1.8s'}}></span>
+      <span style={{animationDuration:'1.6s'}}></span>
+      <div className='over'>
       <h1 className="heading__primary ">Projects</h1>
-
       <section className="proj__cardContainer">
         {projects.map((data) => (
           <div className="relative" key={data.id}>
@@ -40,6 +80,8 @@ export const Projects = () => {
           </div>
         ))}
       </section>
+    </div>
+      
     </div>
   );
 };
