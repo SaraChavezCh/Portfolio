@@ -37,7 +37,8 @@ export const Education = () => {
               <h2 className="value__heading">
                 Universidad del Valle de México
               </h2>
-              <p>Master Degree: Education.</p>
+              {translate ? <p>Maestria en Educación </p>: <p>Master Degree: Education.</p>}
+              
               <i>2021</i>
               <div className="value__imageBox prueba">
                 <img src={uvm} alt="university logo" className="value__image" />
@@ -50,8 +51,8 @@ export const Education = () => {
               <div className="value__imageBox prueba">
                 <img src={via} alt="englis school logo" className="value__image" />
               </div>
-              <h2 className="value__heading">English </h2>
-              <p>Level: B2 advanced</p>
+              <h2 className="value__heading">{translate ? 'Ingles' : 'English'} </h2>
+              <p>{translate ? 'Nivel: B2 Avanzado' : 'Level: B2 advanced'}</p>
               <i>2019</i>
             </div>
           </div>
@@ -59,8 +60,8 @@ export const Education = () => {
           <div className="value ">
             <div className="value__text ">
               <h2 className="value__heading">Universidad de Guadalajara</h2>
-              <p>Bachelor´s degree: </p>
-              <strong>Civil Engineering</strong>
+              <p>{translate ? 'Título universitario' : 'Bachelor´s degree:'} </p>
+              <strong>{translate ? 'Ingeniería Civil' : 'Civil Engineering'}</strong>
               <i>2017</i>
               <div className="value__imageBox prueba">
                 <img src={udg} alt="university logo" className="value__image" />

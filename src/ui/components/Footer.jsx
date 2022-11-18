@@ -106,7 +106,7 @@ export const Footer = () => {
         </Col>
       </div>
 
-      <p className="footer__copy">Derechos Reservados &copy; 2022</p>
+      <p className="footer__copy">{translate ? 'Derechos Reservados' : 'All rights reserved'} &copy; 2022'</p>
     </Row>
   );
 };

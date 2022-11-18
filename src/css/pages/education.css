@@ -77,6 +77,15 @@
 }
 @media screen and (min-width: 1024px) {
   .about__values {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+  }
+  .value__text{
+    height: 230px;
+  }
+  .value__imageBox{
+    height: 230px;
+  }
+  .value__imageBox img{
+    width: 230px;
   }
 }
