@@ -4,9 +4,13 @@ import { Col, Row } from "react-bootstrap";
 import "../../css/footer.css";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { useSelector} from 'react-redux';
+
 
 export const Footer = () => {
   const form = useRef();
+  const translate = useSelector(state => state.translate);
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,7 +30,7 @@ export const Footer = () => {
       <div className="footer__grid">
         <Col xs={12} md={6} lg={4}>
           <div className="footer__information">
-            <h3 className="footer__heading">Information</h3>
+            <h3 className="footer__heading">{translate ? 'Información:' : 'Information:'}</h3>
 
             <ul className="footer__list">
               <li className="footer__link">
@@ -52,32 +56,32 @@ export const Footer = () => {
         </Col>
         <Col xs={12} md={3} lg={3}>
           <div className="footer__menu">
-            <h3 className="footer__heading">Menu</h3>
+            <h3 className="footer__heading">{translate ? 'Menú:' : 'Menu:'} </h3>
 
             <ul className="footer__list">
               <li className="footer__link">
                 <Link onClick={() => window.scrollTo(0, 0)} to="/home">
-                  About me
+                 { translate ? 'Acerca de mi' : 'About me'}
                 </Link>
               </li>
               <li className="footer__link">
                 <Link onClick={() => window.scrollTo(0, 0)} to="/technologies">
-                  Technologies
+                {translate ? 'Tecnologías' : 'Technologies'}
                 </Link>
               </li>
               <li className="footer__link">
                 <Link onClick={() => window.scrollTo(0, 0)} to="/education">
-                  Educación
+                {translate ? 'Educación' : 'Education'}
                 </Link>
               </li>
               <li className="footer__link">
                 <Link onClick={() => window.scrollTo(0, 0)} to="/projects">
-                  Projects
+                {translate ? 'Proyectos' : 'Projects'}
                 </Link>
                 </li>
                 <li className="footer__link">
                   <Link onClick={() => window.scrollTo(0, 0)} to="/contacto">
-                    Contact
+                  {translate ? 'Contactame' : 'Contact'}
                   </Link>
               </li>
             </ul>
@@ -86,7 +90,7 @@ export const Footer = () => {
         <Col className="mt-3" xs={12} md={6} lg={4}>
           <div className="footer__contact">
             <h3 className="footer__heading">
-              Contact me:
+            {translate ? 'Contáctame:' : 'Contact me:'} 
             </h3>
 
             <form onSubmit={sendEmail} id="form" href={form} className="footer__form">
@@ -95,7 +99,7 @@ export const Footer = () => {
                 <input id="email" name="email" type="email" placeholder="tucorreo@correo.com" />
               </div>
               <button value="Send Email" id="button" type="onSubmit" className="btn" >
-                Enviar
+              {translate ? 'Enviar' : 'Send'} 
               </button>
             </form>
           </div>

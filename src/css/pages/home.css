@@ -119,6 +119,7 @@
   width: 90%;
   margin: 0 auto;
   gap: 2rem;
+  padding: 0;
 }
 .social__item {
       width: 30rem;
@@ -165,6 +166,5 @@
 .social__header .heading__tertiary {
   cursor: pointer;
 }
-
 
 

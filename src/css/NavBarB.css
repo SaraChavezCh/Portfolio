@@ -35,3 +35,9 @@ color: var(--color-greenlemon) !important;
     background-color: aliceblue;
 }
  
+.position__btn{
+    position: absolute;
+    top: 2rem;
+    right: 25%;
+  }
+  

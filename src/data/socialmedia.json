@@ -3,6 +3,7 @@
           "id": "1",
           "title": "Linked in",
           "description": "Conoce un poco más sobre mi.",
+          "descriptionEs": "Know a little more about me.",
           "icon": "../assets/img/linkedin.png",
           "url":"https://www.linkedin.com/in/sara-chavez-384547219/"
       },
@@ -10,6 +11,7 @@
           "id": "2",
           "title": "Git Hub",
           "description": "Aquí podrás encontrar todos los repositorios que he realizado individual y en conjunto. ",
+          "descriptionEs": "Here you can find all the repositories that I have been working as an individual or teamwork",
           "icon": "../assets/img/github.png",
           "url":"https://github.com/SaraChavezCh"
       }

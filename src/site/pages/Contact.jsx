@@ -3,9 +3,11 @@ import { Button, Form } from "react-bootstrap";
 import "../../css/pages/contact.css";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
+import { useSelector } from 'react-redux';
 
 export const Contact = () => {
   const form = useRef();
+  const translate = useSelector(state => state.translate);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -24,7 +26,7 @@ export const Contact = () => {
   
   return (
     <section className="contact">
-      <p className="heading__primary heading__primary-center"> Contact </p>
+      <p className="heading__primary heading__primary-center">{ translate ? 'Contáctame' : 'Contact'} </p>
 
      <section className="back">
     <span style={{ animationDuration: "1.1s" }}></span>
@@ -79,12 +81,12 @@ export const Contact = () => {
 
 
         <section className="contact__mainSection">
-          <h1 className="heading__secondary">Send me an email</h1>
+          <h1 className="heading__secondary">{ translate ? 'Enviame un email': 'Send me an email'}</h1>
 
 
           <Form href={form} id="form" onSubmit={sendEmail}>
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="name">Full name</Form.Label>
+              <Form.Label htmlFor="name">{ translate ? 'Nombre Completo': 'Full name'}</Form.Label>
               <Form.Control id="text" name="name" type="text" />
             </Form.Group>
 
@@ -94,13 +96,13 @@ export const Contact = () => {
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="number">Phone</Form.Label>
+              <Form.Label htmlFor="number">{translate ? 'Telefono' : 'Phone'}</Form.Label>
               <Form.Control id="number" name="number" type="number" />
             </Form.Group>
 
             <Form.Group className="mb-3">
               <Form.Label htmfor="text">
-                Email - text
+                { translate ? 'Email-texto' : 'Email - text'}
               </Form.Label>
               <Form.Control id="text" name="text" type="text" />
             </Form.Group>

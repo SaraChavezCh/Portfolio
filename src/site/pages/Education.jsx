@@ -4,12 +4,14 @@ import academlo from "../../assets/img/academlo.png";
 import udg from "../../assets/img/udg.png";
 import uvm from "../../assets/img/uvm.jpg";
 import via from "../../assets/img/VIA.jpg";
+import { useSelector } from 'react-redux';
 
 export const Education = () => {
+  const translate = useSelector(state => state.translate);
   return (
     <div className="education__container_bg">
       <header className="section-separation">
-        <h1 className="heading__primary">Education</h1>
+        <h1 className="heading__primary">{translate ? 'Educación' : 'Education'}</h1>
       </header>
 
       <main className="section-separation">
