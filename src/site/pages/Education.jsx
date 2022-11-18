@@ -7,7 +7,7 @@ import via from "../../assets/img/VIA.jpg";
 
 export const Education = () => {
   return (
-    <div className="education__container_bg education">
+    <div className="education__container_bg">
       <header className="section-separation">
         <h1 className="heading__primary">Education</h1>
       </header>

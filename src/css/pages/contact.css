@@ -1,23 +1,65 @@
-.section-separation-contact{
-  padding: 5rem 0;
-  background: var(--color-greens);
-}
-.heading__primary-center{
-  text-align: center;
-  width: 100%;
-}
 .contact{
   margin-top: 7rem;
     padding: 5rem 0;
     width: 100%;
-    height: 600px;
 }
-.contact__intro{
-    width: 60%;
-  font-size: 30px;
-  margin: 0 auto;
-  color: var(--color-red);
+.back{
+  width: 100%;
+  height: 1100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  column-gap: 3rem;
+  z-index: -1;
+  background: var(--color-greens);
 }
+
+.heading__primary-center{
+  text-align: center;
+  width: 100%;
+}
+
+    /* ================================= */
+    /* animation */
+    /* ==================================== */
+    
+    .back span {
+      
+      position: relative;
+      width: 2px;
+      height: 2px;
+      background-color: var(--color-pinkl);
+      margin: 0 4rem;
+      border-radius: 50%;
+      box-shadow: 0 0 0 1px var(--color-pinkl), 0 0 2px var(--color-pinkl),
+        0 0 3px var(--color-pinkl);
+      animation: animate 20s linear infinite;
+    }
+    .back span:nth-child(even) {
+      background-color: var(--color-purple);
+      box-shadow: 0 0 0 1px var(--color-purple), 0 0 2px var(--color-purple),
+        0 0 3px var(--color-purple);
+    }
+    @keyframes animate {
+      0% {
+        transform: translateY(0vh);
+      }
+      100% {
+        transform: translateY(1500px);
+      }
+    }  
+    .principal__container{
+ 
+      width: 95%;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      margin: 0 auto;
+    }
+
 
 /* ################################### */
 /* FORM */
@@ -40,105 +82,20 @@
     box-shadow: 0 5px 5px var(--color-red);
     box-shadow: 5px 5px 5px var(--color-purple);
   }
-
+  
   @media screen and (min-width: 768px) {
     .contact__mainSection {
-        width: 45%;
+        width: 80%;
     }
     .schedule-p{
         margin-left: 1rem;
-    }
-    
+    } 
 }
-.mainSection_email{
-  display: inline-block;
-  text-decoration: none;
-  color: var(--color-bg-black);
-}
-.mainSection_email:hover{
-  color: var(--color-red);
-
-}
-.mainSection__subtitle {
-    margin: 2rem auto;
-    color: var(--color-font);
-      font-size: 28px;
-      font-weight: 600;
+@media screen and (min-width: 1440px) {
+  .contact__mainSection {
+      width: 50%;
   }
-  .mainSection_ul {
-    width: 100%;
-    text-align: justify;
-  }
- 
-  
-  .phones_subtitle_info{
-      text-align: left;
-      margin-left: -1rem;
-      cursor: pointer;
-    }
-
-    /* ================================= */
-    /* schedule */
-    /* ==================================== */
-    .contact__schedule{
-      margin-top: 10rem;
-      box-shadow: 0 5px 5px var(--color-red);
-      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
-        width: 50%;
-    }
-    .schedule-subtitle{
-      padding-left: 1rem;
-      text-align: left !important;
-    }
-
-   /* ================================= */
-    /* animation */
-    /* ==================================== */
-
-    .over{
-      position: absolute;
-      height:100%;
-      width: 100%;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      margin: 2rem ;
-    }
-    .animation{
-      position: relative;
-      display: flex;
-      /* flex-direction: column; */
-      column-gap: 3rem;
-      z-index: -10;
-    }
-    .animation span{
-      position: relative;
-      width: 2px;
-      height: 2px;
-      background-color: var(--color-white);
-      margin:0 4rem;
-      border-radius: 50%;
-      box-shadow: 
-      0 0 0 1px var(--color-white),
-      0 0 2px var(--color-white), 
-      0 0 3px var(--color-white);
-      animation: animate 20s linear infinite;
-    }
-    .animation span:nth-child(even){
-      background-color: var(--color-purple);
-      box-shadow:
-      0 0 0 1px var(--color-purple), 
-      0 0 2px var(--color-purple), 
-      0 0 3px var(--color-purple);
-    }
-    @keyframes animate{
-      0%
-      {
-        transform: translateY(550px) ;
-      }
-      100%
-      {
-        transform: translateY(-10vh) ;
-      }
-    }
+  .schedule-p{
+      margin-left: 1rem;
+  } 
+}

@@ -67,13 +67,12 @@ ul {
 
 .heading__primary {
       font-family: var(--secondary-font);
-      font-size: 6rem;
+      font-size: 5rem;
       font-weight: 700;
       line-height: 1.2;
       color: var(--color-purple);
       margin-bottom: 3rem;
       /* added */
-      width: fit-content;
     margin: 0 auto;
     text-align: center;
 }
@@ -121,13 +120,5 @@ ul {
 
 .btn:hover {
       background-color:var(--color-greenlemon);
-}
-
-.none {
-      display: none;
-}
-
-.show {
-      display: show;
 }
 
