@@ -45,7 +45,7 @@ export const Home = () => {
 
           <div className="description__text">
             <p>
-            { translate ? 'Me considero una persona organizada, responsable y comprometida con lo que sea que me proponga. Me gusta compartir mi conocimiento con los demas y a su vez aprender de ellos, siempre busco incrementar mis competencias laborales y profesionales. Quiero trabajar con personas que constantemente me motiven a seguir creciendo y fungan como guia  y apoyo hacia mi persona ya que yo me comprometeré a ser lo mismo para ellos' : 'I consider myself organized, responsible and committed to what I propose. I like to share my knowledge with others and learn from them, Im always looking to increase my job and personal competencies. I want to work at a company who guie, promove and care my profesional develoment because I'}
+            { translate ? 'Me considero una persona organizada, responsable y comprometida con lo que sea que me proponga.   Me gusta compartir mi conocimiento con los demas y a su vez aprender de ellos, siempre busco mejorar mis competencias laborales y profesionales. Quiero trabajar con personas que constantemente me motiven a seguir creciendo y fungan como guia  y apoyo hacia mi persona ya que yo me comprometeré a ser lo mismo para ellos' : 'I consider myself an organized, responsible and committed person with whatever it is that I propose. I like to share my knowledge with others and in turn learn from them, I always seek to improve my work and professional skills. I want to work with people who constantly motivate me to continue growing and act as a guide and support for me, since I will commit to being the same for them.'}
                
             </p>
           </div>
