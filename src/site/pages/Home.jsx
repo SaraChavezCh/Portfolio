@@ -3,13 +3,13 @@ import { SocialMediaList } from "../components";
 import hero from "../../assets/img/perfil.png";
 import logo from "../../assets/img/logosn.png";
 import "../../css/pages/home.css";
-import { Link } from "react-router-dom";
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { toggleTranslate } from "../../store/translate.Slice";
 
 
 export const Home = () => {
   const translate = useSelector(state => state.translate);
-
+  const dispatch = useDispatch();
    
   return (
     <div className="home">
@@ -18,15 +18,8 @@ export const Home = () => {
           <h1 className="heading__primary"> Sara Chávez</h1>
           <p className="heading__secondary">Front-end Developer Jr.</p>
 
-          <button href={"/contacto"} className="btn btn__center">
-            {" "}
-            { translate ? 'Saludar' : 'Contact'}
-            <Link
-              className="btn__box"
-              onClick={() => window.scrollTo(0, 0)}
-              to="/contacto"
-            ></Link>
-          </button>
+          <button onPress={()=>{dispatch(toggleTranslate())}} className="btn btn__center " onClick={()=>{dispatch(toggleTranslate())}}> {translate ? "English" : "Español"}</button>
+
         </div>
 
         <div className="hero__image">
