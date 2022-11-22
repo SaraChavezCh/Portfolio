@@ -89,6 +89,7 @@ export const Projects = () => {
                 className="circle__container__img"
                 variant="top"
                 src={data.logo}
+                
               />
             </div>
             </section>
