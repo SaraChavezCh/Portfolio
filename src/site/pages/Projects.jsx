@@ -88,7 +88,7 @@ export const Projects = () => {
               <Card.Img
                 className="circle__container__img"
                 variant="top"
-                src={require(data.logo)}
+                src={`"${data.logo}"`}
                 
               />
             </div>
