@@ -88,7 +88,7 @@ export const Projects = () => {
               <Card.Img
                 className="circle__container__img"
                 variant="top"
-                src={`"${data.logo}"`}
+                src={data.logo}
                 
               />
             </div>
