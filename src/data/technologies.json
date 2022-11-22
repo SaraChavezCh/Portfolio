@@ -1,44 +1,44 @@
 [
     {
         "id": "1",
-        "logo": "../assets/img/html_logo.webp"
+        "logo": "/img/html_logo.webp"
     },
     {
         "id": "2",
-        "logo": "../assets/img/css_logo.webp"
+        "logo": "/img/css_logo.webp"
     },
     {
         "id": "3",
-        "logo": "../assets/img/javascript_logo.png"
+        "logo": "/img/javascript_logo.png"
     },
     
     {
         "id": "4",
-        "logo": "../assets/img/git_logo.png"
+        "logo": "/img/git_logo.png"
     },
     {
         "id": "5",
-        "logo": "../assets/img/netlify_logo.png"
+        "logo": "/img/netlify_logo.png"
     },
     {
         "id": "6",
-        "logo": "../assets/img/react_logo.png"
+        "logo": "/img/react_logo.png"
     },
     {
         "id": "7",
-        "logo": "../assets/img/redux_logo.jpg"
+        "logo": "/img/redux_logo.jpg"
     },
     {
         "id": "8",
-        "logo": "../assets/img/node_logo.png"
+        "logo": "/img/node_logo.png"
     },
     {
         "id": "9",
-        "logo": "../assets/img/dbeaver_logo.png"
+        "logo": "/img/dbeaver_logo.png"
     },
     {
         "id": "10",
-        "logo": "../assets/img/sequelize-logo.png"
+        "logo": "/img/sequelize-logo.png"
     }
 
 ]
