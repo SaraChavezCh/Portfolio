@@ -2,7 +2,7 @@
       {
           
           "id": "1",
-          "logo": "../assets/img/weatherapp.jpg",
+          "logo": "/img/weatherapp.jpg",
           "url": "https://weatherappbysarach.netlify.app/",
           "name": "Weather App",
           "description":"This project used a public API, it gives you the weather condition of the place where you are when you open it. it has a changing background and image that depend on the weather condition.",
@@ -13,7 +13,7 @@
       {
           
           "id": "2",
-          "logo": "../assets/img/rickandmorty.jpg",
+          "logo": "/img/rickandmorty.jpg",
           "url": "https://rickandmorthybysarachavez.netlify.app",
           "name": "Rick and Morty App",
           "descriptionEs":"Una aplicación donde el usuario podrá ver las características de sus personajes favoritos de la seria de Rick and Morty filtrados por dimensión.",
@@ -24,7 +24,7 @@
       {
           
           "id": "3",
-          "logo": "../assets/img/pokemonapp.jpg",
+          "logo": "/img/pokemonapp.jpg",
           "url": "https://pokemonsbysarachavez.netlify.app/",
           "name": "Pokemon App",
           "descriptionEs":"Aplicación que permite al usuario la búsqueda de cualquier Pokémon ya sea por tipo o nombre, además ofrece una vista a detalle del Pokémon seleccionado.",
@@ -35,7 +35,7 @@
       {
           
           "id": "4",
-          "logo": "../assets/img/ecommerce.jpg",
+          "logo": "/img/ecommerce.jpg",
           "url": "https://ecommerceteamcrazy.netlify.app/#/",
           "name": "E-commerce App",
           "descriptionEs":"Una simulación de una infraestructura de e-commerce",
@@ -46,7 +46,7 @@
       {
           
           "id": "5",
-          "logo": "../assets/img/voztotal.jpg",
+          "logo": "/img/voztotal.jpg",
           "url": "https://voztotal.mx/",
           "name": "Voz Toltal Site",
           "descriptionEs":"Página web desarrolla para una empresa con el objetivo de dar a conocer sus servicios al cliente y expander sus horizontes de trabajo",
