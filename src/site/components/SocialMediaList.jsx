@@ -11,7 +11,7 @@ export const SocialMediaList = () => {
         <li className="social__item" key={item.id}>
           <header className="social__header">
             <div className="social__iconBox">
-              <img className="social__icon " src={item.icon} alt="logo" />
+              <img className="social__icon " src={require(item.icon)} alt="logo" />
             </div>
             {translate ? <p>{item.description}</p> : <p>{item.descriptionEs}</p> }
             
