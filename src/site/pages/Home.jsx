@@ -18,7 +18,7 @@ export const Home = () => {
           <h1 className="heading__primary"> Sara Chávez</h1>
           <p className="heading__secondary">Front-end Developer Jr.</p>
 
-          <button onPress={()=>{dispatch(toggleTranslate())}} className="btn btn__center " onClick={()=>{dispatch(toggleTranslate())}}> {translate ? "English" : "Español"}</button>
+          <button onPress={()=>{dispatch(toggleTranslate())}} className="btn btn__center " onClick={()=>{dispatch(toggleTranslate())}}> {translate ? "Inglish" : "Español"}</button>
 
         </div>
 
