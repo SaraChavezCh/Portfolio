@@ -33,7 +33,7 @@ export const Home = () => {
         </h2>
         <div className="description__grid">
           <div className="description__image">
-            <img src={`"${logo}"`} alt="Logo" />
+            <img src={logo} alt="Logo" />
           </div>
 
           <div className="description__text">
