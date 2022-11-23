@@ -69,8 +69,8 @@
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
-  color: var(--color-black);
-  transform: skewY(-5deg);
+  color: #e8ddda;
+  transform: skewY(-6deg);
 }
 
 .description__grid {
@@ -87,14 +87,15 @@
 
 .description__image img {
   width: 100%;
-  transform: skewY(-4deg);
+  transform: skewY(-6deg);
 }
 
 .description__text p {
   text-align: justify;
-  transform: skewY(-5deg);
+  transform: skewY(-6deg);
   width: 100%;
   font-size: 1.8rem;
+  color: #e8ddda;
 }
 
 @media screen and (min-width: 768px) {

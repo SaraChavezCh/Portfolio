@@ -19,7 +19,7 @@
   --color-pinks: #791a56;
   --color-purple: #893994;
   --color-white: #fff;
-  --color-black: #000;
+  --color-black: rgba(0, 0, 0, 0.698);
   --color-ui: #212529;
 }
 
