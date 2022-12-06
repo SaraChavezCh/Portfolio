@@ -20,7 +20,7 @@ export const Education = () => {
           <div className="value ">
             <div className="value__text">
               <h2 className="value__heading">Academlo</h2>
-              <p>Front-end Developer Jr.</p>
+              <p>Full Stack Developer Jr.</p>
               <i>2022</i>
               <div className="value__imageBox prueba">
                 <img
